@@ -38,7 +38,7 @@ const Navbar = () => {
 
   const router = useRouter();
   return (
-    <div className="flex">
+    <div className="flex flex-row">
       <div
         className={`${
           open ? "w-60" : "w-20"
@@ -65,25 +65,32 @@ const Navbar = () => {
             Hey! There.
           </h1>
         </div>
-        <ul className="pt-6">
+        <div className="pt-6">
           {Menus.map((menu, index) => (
-            <li
-              key={index}
-              className={`text-white  cursor-pointer gap-x-4 p-1 flex items-center text-lg hover:text-black font-medium ${
-                menu.gap ? "mt-[75px]" : "mt-2"
-              }`}
-            >
-              <img src={`${menu.src}.png`} className={`w-11`} />
-              <Link href={menu.href}>
+            <>
+            <Link href={menu.href}>
               <a
-                className={`${!open && "hidden"} origin-left duration-200 ${router.asPath == menu.href && "text-black border-b-2 border-black"}`}
+                key={index}
+                className={`text-white  cursor-pointer gap-x-4 p-1 flex items-center text-lg hover:text-black font-medium ${
+                  menu.gap ? "mt-[75px]" : "mt-2"
+                }`}
               >
-                {menu.title}
+                <img src={`${menu.src}.png`} className={`w-11`} />
+                {/* <Link href={menu.href}> */}
+                <div
+                  className={`${!open && "hidden"} origin-left duration-200 ${
+                    router.asPath == menu.href &&
+                    "text-black border-b-2 border-black"
+                  }`}
+                >
+                  {menu.title}
+                </div>
+                {/*   </Link> */}
               </a>
-              </Link>
-            </li>
+            </Link>
+            </>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );

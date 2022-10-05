@@ -1,16 +1,22 @@
 import React from "react";
 import Head from "next/Head";
 import Navbar from "/components/Navbar";
+import KidsCard from "/components/KidsCard";
 const Kids = () => {
 
   return (
     <>
       <Head>
-    <title>Kids</title>
-  </Head>
-    <div className="h-full w-full text-white">
-      <Navbar />
-    </div>
+        <title>Kids</title>
+      </Head>
+      <div className="h-full w-full flex">
+        <div className="text-white">
+          <Navbar />
+        </div>
+        <div className="w-full h-fit">
+          <KidsCard />
+        </div>
+      </div>
     </>
   );
 };
