@@ -28,7 +28,7 @@ return (
             <img
               src={"logo.png"}
               alt="logo"
-              className=" relative w-full h-full  backdrop-blur-[3px]"
+              className=" relative w-full h-full "
             />
           </div>
         </div>

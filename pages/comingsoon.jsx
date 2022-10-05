@@ -1,12 +1,12 @@
 import React from "react";
 import Head from "next/Head";
 import Navbar from "/components/Navbar";
-const TvShows = () => {
-    
-  return (
-    <>
-      <Head>
-        <title>Home</title>
+const ComingSoon = () => {
+   
+    return (
+      <>
+       <Head>
+        <title>ComingSoon</title>
     </Head>
       <div className="h-full w-full text-white">
         <Navbar/>
@@ -15,4 +15,4 @@ const TvShows = () => {
     );
 }
 
-export default TvShows;
+export default ComingSoon;

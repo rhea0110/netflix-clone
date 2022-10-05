@@ -15,6 +15,9 @@ import FooterButton from "../components/FooterButton";
 
 
 const Home = () => {
+  <Home>
+    <title>Welcome || Page</title>
+  </Home>
     return (
       <div>
         <div className="w-full h-screen ">
