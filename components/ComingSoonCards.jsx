@@ -62,7 +62,7 @@ const CominSoonCard = () => {
           {shows.map((show, index) => (
             <div
               key={index}
-              className="flex hover:scale-110 flex-wrap w-full my-6 border-2 h-fit rounded-lg border-red-600 lg:w-[30%]"
+              className="flex hover:scale-110 hover:animate-pulse flex-wrap w-full my-6 border-2 h-fit rounded-lg border-red-600 lg:w-[30%]"
             >
               <img
                 src={`${show.src}.jpg`}

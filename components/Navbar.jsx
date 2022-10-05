@@ -5,22 +5,29 @@ import Link from "next/link";
 const Navbar = () => {
   const [open, setOpen] = useState(true);
   const Menus = [
-    { title: "TV Shows", src: "tvi", href: "/home", asPath: "/home" },
-    { title: "Movies", src: "movie", href: "/movies", asPath: "/movies" },
-    { title: "Kids", src: "kids", href: "/kids", asPath: "/kids" },
-    {
-      title: "Reality Shows",
-      src: "exc",
-      gap: true,
-      href: "/exclusive",
-      asPath: "/exclusive",
-    },
     {
       title: "Coming Soon",
       src: "soon",
       href: "/comingsoon",
       asPath: "/comingsoon",
     },
+    { title: "Popular Shows", src: "tvi", href: "/home", asPath: "/home", gap: true,},
+    {
+      title: "Premium Shows",
+      src: "exc",
+      href: "/exclusive",
+      asPath: "/exclusive",
+    },
+
+    {
+      title: "Movies",
+      src: "movie",
+      href: "/movies",
+      asPath: "/movies",
+    },
+
+    { title: "Kids", src: "kids", href: "/kids", asPath: "/kids"},
+
     {
       title: "Settings",
       src: "set",
@@ -34,15 +41,22 @@ const Navbar = () => {
       href: "/languages",
       asPath: "/languages",
     },
+    {
+      title: "Logout",
+      src: "logout",
+      href: "/",
+      asPath: "/",
+      gap: true,
+    },
   ];
 
   const router = useRouter();
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row h-full">
       <div
         className={`${
           open ? "w-60" : "w-20"
-        } h-screen opacity-90 bg-red-600 relative p-5 pt-8`}
+        } h-full opacity-90 bg-red-600 relative p-5 pt-8`}
       >
         <img
           src={"back.png"}
