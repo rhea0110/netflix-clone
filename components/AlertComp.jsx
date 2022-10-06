@@ -11,7 +11,7 @@ const AlertComp = () => {
           <h1 className="text-5xl text-LEFT font-mono text-white ">
             WHAT INTELLECTUAL PROPERTY NOTICE SHOULD I BE AWARE OF?
           </h1>
-          <ul type="bullet" className="w-full p-5 my-2">
+          <ul type="circle" className="w-full p-5 my-2">
             <li className="text-white text-lg text-left font-mono text-md">
               - <span className="text-red-600">COPYRIGHT</span>: THE NETFLIX
               SERVICE, INCLUDING ALL CONTENT PROVIDED ON THE NETFLIX SERVICE, IS

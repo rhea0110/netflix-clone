@@ -55,14 +55,23 @@ const MoviesCards = () => {
   return (
     <div className="w-full flex flex-row">
       <div className="flex flex-col">
-        <div className="text-white text-3xl font-medium mt-[55px] ml-10">
-          Movies
+        <div className="flex flex-row w-full">
+          <div className="text-white text-3xl font-medium mt-[50px] ml-10">
+            Movies
+          </div>
+          <div className="ml-auto mr-12 mt-[20px] h-fit">
+            <Link href="/alert">
+              <span className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-red-600 font-medium">
+                Learn More
+              </span>
+            </Link>
+          </div>
         </div>
         <div className="flex flex-wrap px-10 w-full gap-x-14">
           {shows.map((show, index) => (
             <div
               key={index}
-              className="flex flex-wrap  hover:scale-110 w-full my-6 border-2 h-fit rounded-lg border-red-600 lg:w-[30%]"
+              className="flex flex-wrap  hover:scale-110 w-full my-6 border-2 h-fit rounded-lg border-gray-900 lg:w-[30%]"
             >
               <img
                 src={`${show.src}.jpg`}
@@ -76,7 +85,6 @@ const MoviesCards = () => {
                 <span className="text-md line-clamp-3 mt-4 text-left text-white font-normal">
                   {show.description}
                 </span>
-                <div className="flex flex-row">
                   <Link href={show.href}>
                     <a>
                       <div className=" w-fit flex ml-auto pt-6 ">
@@ -106,12 +114,12 @@ const MoviesCards = () => {
                       </div>
                     </a>
                   </Link>
-                  <Link href="/alert">
+                 {/*  <Link href="/alert">
                     <span className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-red-600 font-medium">
                       Learn More
                     </span>
-                  </Link>
-                </div>
+                  </Link> */}
+
               </div>
             </div>
           ))}
