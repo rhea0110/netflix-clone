@@ -24,11 +24,16 @@ const AppSet = () => {
           <div className="text-white text-3xl font-medium mt-[50px] ml-10 mb-10">
             Settings
           </div>
-          <div className="ml-auto mr-12 mt-[20px] h-fit">
+          <div className="ml-auto flex flex-row gap-x-5  mr-12 mt-[20px] h-fit">
             <Link href="/alert">
               <span className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-red-600 font-medium">
                 Learn More
               </span>
+            </Link>
+            <Link href="/settings">
+              <button className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-red-600 font-medium">
+                Go Back
+              </button>
             </Link>
           </div>
         </div>

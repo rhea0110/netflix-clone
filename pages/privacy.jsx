@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head"
-
+import Link from "next/link"
 const Privacy = () => {
     const line = [
       {
@@ -50,15 +50,33 @@ const Privacy = () => {
           <title>Privacy</title>
         </Head>
         <div>
-          <div className="text-red-500 text-3xl font-medium mt-[40px] ml-10">
-            Privacy
+          <div className="flex flex-row">
+            <div className="text-red-500  text-3xl font-medium mt-[40px] ml-10">
+              Privacy
+            </div>
+            <div className="ml-auto flex flex-row gap-x-5  mr-12 mt-[20px] h-fit">
+              <Link href="/alert">
+                <span className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-red-600 font-medium">
+                  Learn More
+                </span>
+              </Link>
+              <Link href="/settings">
+                <button className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-red-600 font-medium">
+                  Go Back
+                </button>
+              </Link>
+            </div>
           </div>
+
           <div>
             <ul type="circle" className="w-full p-10 my-2">
-                        {line.map((lines, index) => (
-                            <li key={index} className="text-white my-3 text-lg text-left font-mono text-md">
-                       - { lines.title.toUpperCase()}.
-                                </li>
+              {line.map((lines, index) => (
+                <li
+                  key={index}
+                  className="text-white my-3 text-lg text-left font-mono text-md"
+                >
+                  - {lines.title.toUpperCase()}.
+                </li>
               ))}
             </ul>
           </div>

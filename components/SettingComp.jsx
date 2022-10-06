@@ -22,7 +22,7 @@ const SettingComp = () => {
         srcOpen: "right",
         href: "/newsletter",
       },
-      { title: "Faqs", srcIcon: "faq", srcOpen: "right", href: "/fas" },
+      { title: "Faqs", srcIcon: "faq", srcOpen: "right", href: "/faqs" },
       {
         title: "Guidelines",
         srcIcon: "guidelines",

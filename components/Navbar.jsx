@@ -44,8 +44,8 @@ const Navbar = () => {
     {
       title: "Logout",
       src: "logout",
-      href: "/",
-      asPath: "/",
+      href: "/logout",
+      asPath: "/logout",
       gap: true,
     },
   ];

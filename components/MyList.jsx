@@ -75,25 +75,28 @@ const MyList = () => {
           <div className="text-white text-3xl font-medium mt-[50px] ml-10">
             My List
           </div>
-          <div className="ml-auto mr-12 mt-[20px] h-fit">
+          <div className="ml-auto flex flex-row gap-x-5  mr-12 mt-[20px] h-fit">
             <Link href="/alert">
               <span className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-red-600 font-medium">
                 Learn More
               </span>
             </Link>
+            <Link href="/settings">
+              <button className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-red-600 font-medium">
+                Go Back
+              </button>
+            </Link>
           </div>
         </div>
         <div className="flex flex-wrap px-10 w-full gap-x-14">
           {shows.map((show, index) => (
-            <Link  key={index} href={show.href}>
-            <div
-              className="flex flex-wrap  hover:scale-110 w-full my-6 border-2 h-fit rounded-lg border-gray-900 lg:w-[30%]"
-              >
-              <img
-                src={`${show.src}.jpg`}
-                className="w-full h-1/2 rounded-lg"
-              />
-            </div>
+            <Link key={index} href={show.href}>
+              <div className="flex flex-wrap  hover:scale-110 w-full my-6 border-2 h-fit rounded-lg border-gray-900 lg:w-[30%]">
+                <img
+                  src={`${show.src}.jpg`}
+                  className="w-full h-1/2 rounded-lg"
+                />
+              </div>
             </Link>
           ))}
         </div>
