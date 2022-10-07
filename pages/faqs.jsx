@@ -53,7 +53,7 @@ const Faqs = () => {
           </div>
         </div>
 
-        <div className="h-screen bg-black">
+        <div className="min-h-screen bg-black">
           <ul type="circle" className="w-full p-10 my-2">
             {line.map((lines, index) => (
               <>
