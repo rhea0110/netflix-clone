@@ -22,7 +22,7 @@ const Home = () => {
       <div className="w-full h-full bg-black">
         <div className="w-screen bg-black h-screen ">
           <div>
-            <div className="bg-black w-full h-full opacity-30">
+            <div className="bg-black w-screen h-full opacity-30">
               <img
                 src={"home.png"}
                 alt="home"
