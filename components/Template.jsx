@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Template = () => {
     return (
-      <div className="w-full py-24 flex items-center justify-center">
+      <div className="min-w-screen py-24 flex items-center justify-center">
         <div className="w-7/12 items-center justify-center h-fit">
           <h1 className="text-center text-6xl font-bold text-white">
             Unlimited movies, TV shows and more.

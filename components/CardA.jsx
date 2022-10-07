@@ -2,7 +2,7 @@ import React from "react";
 
 const CardA = () => {
     return (
-      <div class="flex flex-wrap bg-black overflow-hidden py-6 px-12 ">
+      <div class="flex min-w-screen flex-wrap bg-black overflow-hidden py-6 px-12 ">
         <div class="w-1/2 overflow-hidden p-10 py-[123px] justify-center items-center ">
           <h1 className="text-left text-6xl w-full items-center font-bold text-white">
               Enjoy on your TV. 

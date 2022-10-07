@@ -44,28 +44,28 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="relative w-full h-full">
+            <div className="relative min-w-screen h-full">
               <Template />
             </div>
           </div>
         </div>
-        <hr class="border-4 border-gray-700" />
+        <hr class="border-4 min-w-screen border-gray-700" />
         <div className="w-full h-fit">
           <CardA />
         </div>
-        <hr class="border-4 border-gray-700" />
+        <hr class="border-4 min-w-screen border-gray-700" />
         <div className="w-full h-fit">
           <CardTwo />
         </div>
-        <hr class="border-4 border-gray-700" />
+        <hr class="border-4 min-w-screen border-gray-700" />
         <div className="w-full h-fit">
           <CardThree />
         </div>
-        <hr class="border-4 border-gray-700" />
+        <hr class="border-4 min-w-screen border-gray-700" />
         <div className="w-full h-fit">
           <CardFour />
         </div>
-        <hr class="border-4 border-gray-700" />
+        <hr class="border-4 min-w-screen border-gray-700" />
         <div className="w-full h-fit">
           <Faqs />
           <div className="py-5">

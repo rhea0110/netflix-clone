@@ -9,7 +9,7 @@ const data = [
 ];
 const Faqs = () => {
     return (
-      <div className="w-full h-screen flex bg-black flex-col justify-center items-center">
+      <div className="min-w-screen h-screen flex bg-black flex-col justify-center items-center">
         <h1 className="text-center text-5xl w-full items-center font-bold text-white pb-8">
           Frequently Asked Questions
         </h1>
