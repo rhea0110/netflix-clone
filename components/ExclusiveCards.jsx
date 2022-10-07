@@ -61,7 +61,7 @@ const ExclusiveCards = () => {
           </div>
           <div className="ml-auto mr-12 mt-[20px] h-fit">
             <Link href="/alert">
-              <span className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-gray-900 font-medium">
+              <span className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-red-600 font-medium">
                 Learn More
               </span>
             </Link>
