@@ -19,7 +19,7 @@ const Home = () => {
     <title>Welcome || Page</title>
   </Head>
     return (
-      <div className="min-w-screen h-full bg-black">
+      <div className="w-screen h-full bg-black">
         <div className="w-full bg-black h-screen ">
           <div>
             <div className="bg-black w-full h-full opacity-30">
