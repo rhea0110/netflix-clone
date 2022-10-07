@@ -61,7 +61,7 @@ const Privacy = () => {
       <Head>
         <title>Privacy</title>
       </Head>
-      <div className="w-full h-screen bg-black">
+      <div className="w-full h-full bg-black">
         <div className="flex flex-row">
           <div className="text-red-500  text-3xl font-medium mt-[40px] ml-10">
             Privacy
@@ -81,7 +81,7 @@ const Privacy = () => {
         </div>
 
         <div>
-          <ul type="circle" className="w-full p-10 my-2">
+          <ul type="circle" className="w-full bg-black text-white p-10 my-2">
             {line.map((lines, index) => (
               <li
                 key={index}
