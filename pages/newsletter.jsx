@@ -25,7 +25,7 @@ const OurNewsletter = () => {
             </Link>
           </div>
         </div>
-        <div className="p-10 font-mono leading-[33px]">
+        <div className="p-10 font-mono text-white leading-[33px]">
           Two years ago, people across the world found themselves locked inside
           their homes amid the Covid-19 pandemic, and desperately seeking
           diversions. Not surprisingly, Netflix saw its fortunes skyrocket. The
