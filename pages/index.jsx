@@ -20,9 +20,9 @@ const Home = () => {
   </Head>
     return (
       <div className="min-w-screen h-full bg-black">
-        <div className="w-full bg-black h-screen ">
+        <div className="min-w-screen bg-black h-screen ">
           <div>
-            <div className="bg-black w-screen h-full opacity-30">
+            <div className="bg-black min-w-screen h-full opacity-30">
               <img
                 src={"home.png"}
                 alt="home"
