@@ -5,7 +5,7 @@ const AlertComp = () => {
     return (
       <div className="w-full h-full bg-black">
         <Link href="/kids">
-          <button className="py-1.5 border-2 border-red-600 px-3">
+          <button className="py-1.5 text-white border-2 border-red-600 px-3">
             Go Back
           </button>
         </Link>
