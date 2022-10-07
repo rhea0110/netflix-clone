@@ -20,7 +20,7 @@ const SignUnTemplate = () => {
             className="w-full h-[50px] rounded opacity-90 px-10 text-gray-900 bg-[#2D3033]"
             placeholder="Re-type Password"
           ></input>
-          <Link href="home">
+          <Link href="/home">
             <button className="w-full h-[50px] mt-8 rounded opacity-90 px-10 text-white font-normal bg-red-600 hover:bg-red-700">
               Create Account
             </button>
@@ -53,7 +53,7 @@ const SignUnTemplate = () => {
           </div>
           <div className="flex flex-row gap-x-2">
             <div className="text-white font-extralight">Have an account?</div>
-            <Link href="netsignin">
+            <Link href="/netsignin">
               <div className="text-white font-normal hover:underline cursor-pointer">Sign In</div>
             </Link>
           </div>

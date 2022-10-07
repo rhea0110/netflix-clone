@@ -16,7 +16,7 @@ const SignInTemplate = () => {
             className="w-full h-[50px] rounded opacity-90 px-10 text-gray-900 bg-[#2D3033]"
             placeholder="Password"
           ></input>
-          <Link href="home">
+          <Link href="/home">
             <button className="w-full h-[50px] mt-8 rounded opacity-90 px-10 text-white font-normal bg-red-600 hover:bg-red-700">
               Sign In
             </button>
@@ -44,7 +44,7 @@ const SignInTemplate = () => {
         <div className="text-left flex flex-col pt-10">
           <div className="flex flex-row gap-x-2">
             <div className="text-gray-300 font-extralight">New to Netflix?</div>
-            <Link href="netsignup">
+            <Link href="/netsignup">
               <button className="text-white hover:underline font-normal">
                 Sign Up now
               </button>

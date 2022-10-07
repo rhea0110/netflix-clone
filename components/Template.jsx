@@ -15,7 +15,7 @@ const Template = () => {
             Ready to watch? Enter your email to create or restart your
             membership.
           </p>
-          <Link href="home">
+          <Link href="/home">
             <div className="px-5 flex flex-row pt-6">
               <input
                 className="w-[65%] h-[65px] border px-10 border-white bg-white"

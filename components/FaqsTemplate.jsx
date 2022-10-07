@@ -7,7 +7,7 @@ const FaqsTemplate = () => {
         <p className="text-center text-lg font-semibold text-white pb-4">
           Ready to watch? Enter your email to create or restart your membership.
         </p>
-        <Link href="home">
+        <Link href="/home">
           <div className="px-5 flex flex-row pb-16">
             <input
               className="w-[65%] h-[65px] border px-10 border-white bg-white"

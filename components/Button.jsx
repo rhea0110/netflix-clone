@@ -22,7 +22,7 @@ const Button = (props) => {
             English
           </button>
           <div className="gap-x-6"> 
- <Link href="netsignin">
+ <Link href="/netsignin">
             <button className="py-2 px-5 gap-x-1 text-white bg-red-600 hover:bg-red-700 font-semibold  flex flex-row rounded">
               Sign In
             </button>
