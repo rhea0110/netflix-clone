@@ -34,7 +34,7 @@ const Faqs = () => {
       <Head>
         <title>Faqs</title>
       </Head>
-      <div className="h-screen w-full bg-black">
+      <div className="h-full w-full bg-black">
         <div className="flex flex-row">
           <div className="text-red-500  text-3xl font-medium mt-[40px] ml-10">
             Faqs
@@ -53,7 +53,7 @@ const Faqs = () => {
           </div>
         </div>
 
-        <div className="h-full bg-black">
+        <div className="h-screen bg-black">
           <ul type="circle" className="w-full p-10 my-2">
             {line.map((lines, index) => (
               <>
