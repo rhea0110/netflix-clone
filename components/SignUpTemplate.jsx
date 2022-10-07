@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/Link";
+import Link from "next/link";
 const SignUnTemplate = () => {
   return (
     <div className="w-full lg:w-1/4 flex items-center  justify-center p-11 -mt-2 bg-black bg-opacity-90">

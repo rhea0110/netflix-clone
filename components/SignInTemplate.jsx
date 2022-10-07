@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/Link";
+import Link from "next/link";
 const SignInTemplate = () => {
   return (
     <div className="w-full lg:w-1/4 flex items-center  justify-center p-11 bg-black bg-opacity-90">

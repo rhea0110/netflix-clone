@@ -85,7 +85,6 @@ const ExclusiveCards = () => {
                 <span className="text-md line-clamp-3 mt-4 text-left text-white font-normal">
                   {show.description}
                 </span>
-                <div className="flex flex-row">
                   <Link href={show.href}>
                     <a>
                       <div className=" w-fit flex ml-auto pt-6 ">
@@ -115,12 +114,7 @@ const ExclusiveCards = () => {
                       </div>
                     </a>
                   </Link>
-                  <Link href="/alert">
-                    <span className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-red-600 font-medium">
-                      Learn More
-                    </span>
-                  </Link>
-                </div>
+                
               </div>
             </div>
           ))}

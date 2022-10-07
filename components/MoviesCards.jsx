@@ -108,18 +108,11 @@ const MoviesCards = () => {
                               d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                             />
                           </svg>
-
                           {show.btn}
                         </span>
                       </div>
                     </a>
                   </Link>
-                 {/*  <Link href="/alert">
-                    <span className="text-md flex ml-auto h-fit pt-8 cursor-pointer flex-wrap gap-x-1 text-center py-1.5 px-1 text-red-600 border-b border-red-600 font-medium">
-                      Learn More
-                    </span>
-                  </Link> */}
-
               </div>
             </div>
           ))}

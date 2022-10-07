@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Logout = () => {
     return (
@@ -25,6 +26,16 @@ const Logout = () => {
           >
             Rhea Jain
           </a>
+        </div>
+        <div className=" mt-6 font-mono text-xl ">
+          {"Go back to main page? Do not worry click on the link "}
+          <Link
+            href="/"
+          >
+            <span  className="cursor-pointer text-red-500 text-xl underline">
+              Home
+              </span>
+          </Link>
         </div>
       </div>
     );
