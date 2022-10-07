@@ -20,7 +20,7 @@ const Home = () => {
   </Head>
     return (
       <div>
-        <div className="w-full h-screen ">
+        <div className="w-full bg-black h-screen ">
           <div>
             <div className="bg-black opacity-30">
               <img

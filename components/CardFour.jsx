@@ -2,7 +2,7 @@ import React from "react";
 
 const CardFour = () => {
   return (
-    <div class="flex flex-wrap overflow-hidden  w-full h-full px-12">
+    <div class="flex flex-wrap bg-black overflow-hidden  w-full h-full px-12">
       <div class="w-1/2 overflow-hidden ">
         <img src={"card5.png"} alt="mobile" className="w-full h-full" />
       </div>
