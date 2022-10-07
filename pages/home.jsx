@@ -1,9 +1,8 @@
 import React from "react";
-import Head from "next/Head";
+import Head from "next/head";
 import Navbar from "/components/Navbar";
 import HomeCards from "../components/HomeCards";
 const TvShows = () => {
-    
   return (
     <>
       <Head>
@@ -19,6 +18,6 @@ const TvShows = () => {
       </div>
     </>
   );
-}
+};
 
 export default TvShows;

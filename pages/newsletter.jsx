@@ -2,7 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 const OurNewsletter = () => {
- 
   return (
     <>
       <Head>
@@ -69,15 +68,15 @@ const OurNewsletter = () => {
           Entering AVOD market will be tough for Netflix, he believes. And, does
           this move by Netflix indicates that the future of the Indian OTT
           market is freemium? According to Karan Taurani of Elara Capital,
-          Indian OTTs future will be a mix of AVOD and SVOD. SVOD base
-          necessary for producing large-scale, expensive content and platforms
+          Indian OTTs future will be a mix of AVOD and SVOD. SVOD base necessary
+          for producing large-scale, expensive content and platforms
           transitioning to SVOD as consumers demand quality content, says
-          Taurani. SVOD will grow at a faster pace going ahead and freemium
-          will be the way to go for next 5 years, he says. At present, Netflix
-          has no presence in the sports domain anywhere in the world.
-          Considering that IPL has had a large hand in Disney+Hotstars success
-          in India, can Netflix afford to ignore this area, especially given the
-          love for cricket that Indians have?
+          Taurani. SVOD will grow at a faster pace going ahead and freemium will
+          be the way to go for next 5 years, he says. At present, Netflix has no
+          presence in the sports domain anywhere in the world. Considering that
+          IPL has had a large hand in Disney+Hotstars success in India, can
+          Netflix afford to ignore this area, especially given the love for
+          cricket that Indians have?
         </div>
       </div>
     </>

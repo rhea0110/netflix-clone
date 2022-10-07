@@ -25,7 +25,8 @@ const Faqs = () => {
     },
     {
       questions: " Netflix says to sign up when trying to sign in",
-      answers: " A charge from Netflix in the last month: Your account is still active, but it might be set up with a different email address. Try signing in with a different email address. No charge from Netflix in the last month: Your account might not be active anymore. Follow the steps to restart your account.",
+      answers:
+        " A charge from Netflix in the last month: Your account is still active, but it might be set up with a different email address. Try signing in with a different email address. No charge from Netflix in the last month: Your account might not be active anymore. Follow the steps to restart your account.",
     },
   ];
   return (
@@ -55,14 +56,17 @@ const Faqs = () => {
         <div>
           <ul type="circle" className="w-full p-10 my-2">
             {line.map((lines, index) => (
-              <><li
-                    key={index}
-                    className="text-white my-3 text-lg text-left font-mono text-md">
-                    {lines.questions.toUpperCase()}.
-                </li><li
-                    className="text-red-500 my-3 text-lg text-left font-mono text-md">
-                        - {lines.answers.toUpperCase()}.
-                    </li></>
+              <>
+                <li
+                  key={index}
+                  className="text-white my-3 text-lg text-left font-mono text-md"
+                >
+                  {lines.questions.toUpperCase()}.
+                </li>
+                <li className="text-red-500 my-3 text-lg text-left font-mono text-md">
+                  - {lines.answers.toUpperCase()}.
+                </li>
+              </>
             ))}
           </ul>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "next/Head";
+import Head from "next/head";
 import Navbar from "/components/Navbar";
 import MyList from "../components/MyList";
 const MyListNet = () => {
@@ -12,8 +12,8 @@ const MyListNet = () => {
         <div className="text-white">
           <Navbar />
         </div>
-              <div className="w-full h-fit">
-                  <MyList />
+        <div className="w-full h-fit">
+          <MyList />
         </div>
       </div>
     </>
