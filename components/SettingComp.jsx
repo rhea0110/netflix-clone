@@ -33,7 +33,7 @@ const SettingComp = () => {
     ];
 
     return (
-      <div className="w-full flex flex-row">
+      <div className="w-full bg-black flex flex-row">
         <div className="flex flex-col w-full ">
           <div className="flex flex-row  w-full">
             <div className="text-white text-3xl font-medium mt-[50px] ml-10 mb-10">
@@ -48,13 +48,9 @@ const SettingComp = () => {
             </div>
           </div>
           {shows.map((show, index) => (
-            <Link href={show.href} 
-                  key={index}
-            >
+            <Link href={show.href} key={index}>
               <a className="flex flex-row mb-5 w-full">
-                <div
-                  className="flex flex-row px-9 w-full my-2 "
-                >
+                <div className="flex flex-row px-9 w-full my-2 ">
                   <div>
                     <img
                       src={`${show.srcIcon}.png`}
@@ -76,7 +72,7 @@ const SettingComp = () => {
               </a>
             </Link>
           ))}
-            </div>
+        </div>
       </div>
     );
 }

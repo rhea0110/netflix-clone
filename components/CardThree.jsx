@@ -2,7 +2,7 @@ import React from "react";
 
 const CardThree = () => {
   return (
-    <div class="flex flex-wrap overflow-hidden py-6 px-12 ">
+    <div class="flex flex-wrap bg-black overflow-hidden py-6 px-12 ">
       <div class="w-1/2 overflow-hidden p-10 py-[123px] justify-center items-center ">
         <h1 className="text-left text-6xl w-full items-center font-bold text-white">
           Watch everywhere.

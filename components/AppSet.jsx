@@ -18,7 +18,7 @@ const AppSet = () => {
   ];
 
   return (
-    <div className="w-full flex flex-row">
+    <div className="w-full flex flex-row h-full bg-black">
       <div className="flex flex-col w-full ">
         <div className="flex flex-row  w-full">
           <div className="text-white text-3xl font-medium mt-[50px] ml-10 mb-10">

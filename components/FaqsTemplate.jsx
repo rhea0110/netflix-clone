@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link"
 const FaqsTemplate = () => {
   return (
-    <div className="w-full flex items-center justify-center">
+    <div className="w-full flex bg-black items-center justify-center">
       <div className="w-1/2 items-center justify-center h-fit">
         <p className="text-center text-lg font-semibold text-white pb-4">
           Ready to watch? Enter your email to create or restart your membership.
