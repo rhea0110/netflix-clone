@@ -80,7 +80,7 @@ const Privacy = () => {
           </div>
         </div>
 
-        <div className="bg-black h-screen w-full">
+        <div className="bg-black min-h-screen w-full">
           <ul type="circle" className="w-full bg-black h-full text-white p-10 my-2">
             {line.map((lines, index) => (
               <li
