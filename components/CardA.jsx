@@ -1,6 +1,6 @@
 import React from "react";
 
-const CardOne = () => {
+const CardA = () => {
     return (
       <div class="flex flex-wrap overflow-hidden py-6 px-12 ">
         <div class="w-1/2 overflow-hidden p-10 py-[123px] justify-center items-center ">
@@ -21,4 +21,4 @@ const CardOne = () => {
     );
 }
 
-export default CardOne;
+export default CardA;

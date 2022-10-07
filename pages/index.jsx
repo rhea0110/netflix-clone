@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '../components/Button';
-import CardOne from '../components/CardOne';
 import CardTwo from "../components/CardTwo";
 import CardFour from "../components/CardFour";
 import CardThree from "../components/CardThree";
@@ -13,6 +12,7 @@ import FooterTwo from "../components/FooterTwo";
 import FooterThree from "../components/FooterThree";
 import FooterButton from "../components/FooterButton";
 import Head from "next/head";
+import CardA from '../components/CardA';
 
 const Home = () => {
   <Head>
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
         <hr class="border-4 border-gray-700" />
         <div className="w-full h-fit">
-          <CardOne />
+          <CardA/>
         </div>
         <hr class="border-4 border-gray-700" />
         <div className="w-full h-fit">
