@@ -54,7 +54,7 @@ const HomeCards = () => {
 
   return (
     <div className="w-full bg-black flex flex-row">
-      <div className="flex flex-col">
+      <div className="flex w-full flex-col">
         <div className="flex flex-row w-full">
           <div className="text-white text-3xl font-medium mt-[50px] ml-10">
             Popular Shows
