@@ -81,7 +81,7 @@ const Privacy = () => {
         </div>
 
         <div className="bg-black h-screen w-full">
-          <ul type="circle" className="w-full  text-white p-10 my-2">
+          <ul type="circle" className="w-full h-full text-white p-10 my-2">
             {line.map((lines, index) => (
               <li
                 key={index}
