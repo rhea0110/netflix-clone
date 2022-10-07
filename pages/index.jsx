@@ -12,12 +12,12 @@ import FooterOne from "../components/FooterOne";
 import FooterTwo from "../components/FooterTwo";
 import FooterThree from "../components/FooterThree";
 import FooterButton from "../components/FooterButton";
-
+import Head from "next/head";
 
 const Home = () => {
-  <Home>
+  <Head>
     <title>Welcome || Page</title>
-  </Home>
+  </Head>
     return (
       <div>
         <div className="w-full h-screen ">
