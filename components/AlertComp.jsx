@@ -4,7 +4,7 @@ import Link
 const AlertComp = () => {
     return (
       <div className="w-full h-screen bg-black">
-        <Link href="/kids">
+        <Link href="/home">
           <button className="py-1.5 text-white border-2 border-red-600 px-3">
             Go Back
           </button>
