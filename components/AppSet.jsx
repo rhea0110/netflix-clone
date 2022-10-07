@@ -40,7 +40,7 @@ const AppSet = () => {
         {shows.map((show, index) => (
           <div key={index} className="flex flex-row mb-5 w-full">
             <div className="flex flex-row px-9  w-full my-2 ">
-              <span className="text-lg text-center ml-4 text-white font-semibold">
+              <span className="text-lg text-left ml-4 text-white font-semibold">
                 {show.title}
               </span>
               <div className="ml-auto my-auto">
