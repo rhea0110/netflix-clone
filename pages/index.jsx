@@ -21,8 +21,8 @@ const Home = () => {
     return (
       <div className="w-full h-full bg-black">
         <div className="w-full bg-black h-screen ">
-          <div>
-            <div className="bg-black opacity-30">
+          <div className="w-full h-full">
+            <div className="bg-black w-full h-full opacity-30">
               <img
                 src={"home.png"}
                 alt="home"
