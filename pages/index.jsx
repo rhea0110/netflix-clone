@@ -19,7 +19,7 @@ const Home = () => {
     <title>Welcome || Page</title>
   </Head>
     return (
-      <div>
+      <div className="w-full h-full bg-black">
         <div className="w-full bg-black h-screen ">
           <div>
             <div className="bg-black opacity-30">
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
         <hr class="border-4 border-gray-700" />
         <div className="w-full h-fit">
-          <CardA/>
+          <CardA />
         </div>
         <hr class="border-4 border-gray-700" />
         <div className="w-full h-fit">

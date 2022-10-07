@@ -7,7 +7,7 @@ const OurNewsletter = () => {
       <Head>
         <title>Our Newsletter</title>
       </Head>
-      <div>
+      <div className="w-full h-full bg-black">
         <div className="flex flex-row">
           <div className="text-red-500  text-3xl font-medium mt-[40px] ml-10">
             Newsletter

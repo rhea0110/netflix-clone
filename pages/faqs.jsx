@@ -34,7 +34,7 @@ const Faqs = () => {
       <Head>
         <title>Faqs</title>
       </Head>
-      <div>
+      <div className="h-full w-full bg-black">
         <div className="flex flex-row">
           <div className="text-red-500  text-3xl font-medium mt-[40px] ml-10">
             Faqs

@@ -8,7 +8,7 @@ const MyListNet = () => {
       <Head>
         <title>My List</title>
       </Head>
-      <div className="h-full w-full flex">
+      <div className="h-full bg-black w-full flex">
         <div className="text-white">
           <Navbar />
         </div>

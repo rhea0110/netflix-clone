@@ -81,7 +81,7 @@ const Languages = () => {
       <Head>
         <title>Languages</title>
       </Head>
-      <div>
+      <div className="bg-black w-full h-full">
         <div className="flex flex-row">
           <div className="text-red-500  text-3xl font-medium mt-[40px] ml-10">
             Languages
