@@ -9,8 +9,8 @@ const AlertComp = () => {
             Go Back
           </button>
         </Link>
-        <div className=" h-full p-5 w-full ">
-          <h1 className="text-5xl text-LEFT font-mono text-white ">
+        <div className=" h-screen p-5 w-full ">
+          <h1 className="text-5xl text-left font-mono text-white ">
             WHAT INTELLECTUAL PROPERTY NOTICE SHOULD I BE AWARE OF?
           </h1>
           <ul type="circle" className="w-full p-5 my-2">
