@@ -3,13 +3,13 @@ import Link
     from 'next/link';
 const AlertComp = () => {
     return (
-      <div className="w-full h-full bg-black">
+      <div className="w-full h-screen bg-black">
         <Link href="/kids">
           <button className="py-1.5 text-white border-2 border-red-600 px-3">
             Go Back
           </button>
         </Link>
-        <div className=" h-screen p-5 w-full ">
+        <div className="h-full p-5 w-full ">
           <h1 className="text-5xl text-left font-mono text-white ">
             WHAT INTELLECTUAL PROPERTY NOTICE SHOULD I BE AWARE OF?
           </h1>
