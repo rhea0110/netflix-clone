@@ -8,7 +8,7 @@ const Settings = () => {
       <Head>
         <title>Settings</title>
       </Head>
-      <div className="h-full bg-black w-full flex">
+      <div className="h-screen bg-black w-screen flex">
         <div className="text-white">
           <Navbar />
         </div>
