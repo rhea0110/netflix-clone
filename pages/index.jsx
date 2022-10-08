@@ -39,12 +39,12 @@ const Home = () => {
                 />
               </div>
 
-              <div className="ml-auto  py-6">
+              <div className="ml-auto py-6">
                 <Button />
               </div>
             </div>
 
-            <div className="relative w-full h-full">
+            <div className="w-full h-full">
               <Template />
             </div>
           </div>

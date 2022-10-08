@@ -4,7 +4,7 @@ import Link from "next/link";
 const Button = (props) => {
     return (
       <>
-        <div className="flex flex-wrap gap-x-6 w-full">
+        <div className="flex flex-wrap gap-x-4 w-full">
           <button className="py-1.5 px-2 border gap-x-1 text-white rounded flex flex-wrap">
             <svg
               xmlns="http://www.w3.org/2000/svg"
