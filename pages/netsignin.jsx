@@ -16,7 +16,7 @@ const NetSignin = () => {
       <div className="w-full h-fit">
         <div>
           <div className="">
-          {/*   <img
+            {/*   <img
               src={"home.png"}
               alt="home"
               className=" absolute w-full h-screen"
@@ -37,11 +37,12 @@ const NetSignin = () => {
           </div>
           <div className="relative w-full h-fit pt-20">
             <div className="">
-             {/*  <img
+              {/*  <img
                 src={"home.png"}
                 alt="home"
                 className=" absolute w-full h-[82%]"
               /> */}
+              <hr class="border-4 border-gray-700" />
               <div className="opacity-90 bg-black h-full w-full">
                 <div className="w-full h-fit justify-center items-center  flex flex-wrap ">
                   <div className="w-full lg:w-[50%]   h-full mx-auto justify-between items-center flex flex-wrap pb-7 text-[#707070] py-10">
