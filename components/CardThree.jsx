@@ -13,8 +13,8 @@ const CardThree = () => {
         </p>
       </div>
 
-      <div class="w-full lg:w-[50%]  overflow-hidden ">
-        <img src={"card4.png"} alt="tv" className="w-full " />
+      <div class="w-full lg:w-[50%] py-7 overflow-hidden ">
+        <img src={"card4.png"} alt="tv" className="w-full h-full " />
       </div>
     </div>
   );
