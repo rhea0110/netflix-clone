@@ -2,13 +2,13 @@ import React from "react";
 import Link from "next/link"
 const FaqsTemplate = () => {
   return (
-    <div className="w-full flex bg-black items-center justify-center">
-      <div className="w-1/2 items-center justify-center h-fit">
+    <div className="w-full lg-[50%] flex bg-black items-center justify-center">
+      <div className="w-full lg:w-[50%] items-center justify-center h-fit">
         <p className="text-center text-lg font-semibold text-white pb-4">
           Ready to watch? Enter your email to create or restart your membership.
         </p>
         <Link href="/home">
-          <div className="px-5 flex flex-row pb-16">
+          <div className="px-5 flex w-full flex-row pb-16">
             <input
               className="w-[65%] h-[65px] border px-10 border-white bg-white"
               placeholder="Email Address"

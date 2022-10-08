@@ -22,7 +22,7 @@ const Home = () => {
       <div className="w-full h-full bg-black">
         <div className="w-full bg-black h-screen ">
           <div>
-            <div className="bg-black min-w-screen h-full opacity-30">
+            <div className="bg-black w-full h-full opacity-30">
               <img
                 src={"home.png"}
                 alt="home"
@@ -44,28 +44,28 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="relative min-w-screen h-full">
+            <div className="relative w-full h-full">
               <Template />
             </div>
           </div>
         </div>
-        <hr class="border-4 min-w-screen border-gray-700" />
+        <hr class="border-4 w-full border-gray-700" />
         <div className="w-full h-fit">
           <CardA />
         </div>
-        <hr class="border-4 min-w-screen border-gray-700" />
+        <hr class="border-4 w-full border-gray-700" />
         <div className="w-full h-fit">
           <CardTwo />
         </div>
-        <hr class="border-4 min-w-screen border-gray-700" />
+        <hr class="border-4 w-full border-gray-700" />
         <div className="w-full h-fit">
           <CardThree />
         </div>
-        <hr class="border-4 min-w-screen border-gray-700" />
+        <hr class="border-4 w-full border-gray-700" />
         <div className="w-full h-fit">
           <CardFour />
         </div>
-        <hr class="border-4 min-w-screen border-gray-700" />
+        <hr class="border-4 w-full border-gray-700" />
         <div className="w-full h-fit">
           <Faqs />
           <div className="py-5">
@@ -78,7 +78,7 @@ const Home = () => {
             Questions? Call 000-800-040-1843
           </div>
         </div>
-        <div className="w-full h-fit justify-center items-center flex flex-row pb-7 px-56">
+        <div className="w-full lg:w-[50%] h-fit justify-center items-center flex flex-row pb-7 px-56">
           <Footer />
           <FooterOne />
           <FooterTwo />

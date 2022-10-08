@@ -9,15 +9,15 @@ const data = [
 ];
 const Faqs = () => {
     return (
-      <div className="min-w-screen h-screen flex bg-black flex-col justify-center items-center">
-        <h1 className="text-center text-5xl w-full items-center font-bold text-white pb-8">
+      <div className="w-full h-screen flex bg-black flex-col justify-center items-center">
+        <h1 className="text-center text-5xl w-full lg:w-[50%] items-center font-bold text-white pb-8">
           Frequently Asked Questions
         </h1>
         {data &&
           data.map((item, index) => (
             <div
               key={index}
-              className="bg-[#2D3033] font-normal text-2xl flex justify-between items-center px-4 my-3 text-white w-1/2 h-[65px]"
+              className="bg-[#2D3033] w-full font-normal text-2xl flex justify-between items-center px-4 my-3 text-white lg:w-[50%] h-[65px]"
             >
               {item}
               <div className="ml-auto h-fit py-4 px-3">
