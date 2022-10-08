@@ -15,11 +15,11 @@ const dataThree = ["Media Centre", "Terms of Use", "Contact Us"];
 
 const Footer = () => {
     return (
-      <div className="bg-black w-full h-full flex flex-row justify-center items-center">
+      <div className="bg-black w-full h-full flex flex-row overflow-hidden justify-center items-center">
         <div className="flex flex-col py-2">
           {data &&
             data.map((item, index) => (
-              <div key={index} className="text-[#707070]">
+              <div key={index} className="whitespace-nowrap  text-[#707070]">
                 {item}
               </div>
             ))}

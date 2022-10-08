@@ -78,11 +78,19 @@ const Home = () => {
             Questions? Call 000-800-040-1843
           </div>
         </div>
-        <div className="w-full lg:w-[50%] h-fit justify-center items-center flex flex-row pb-7 px-56">
-          <Footer />
-          <FooterOne />
-          <FooterTwo />
-          <FooterThree />
+        <div className="w-full lg:w-[50%]  h-full md:flex-flex-col overflow-hidden justify-center items-center flex flex-row pb-7 px-[695px]">
+          <div className="mx-12">
+            <Footer />
+          </div>
+          <div className="mx-12">
+            <FooterOne />
+          </div>
+          <div className='mx-12' >
+            <FooterTwo />
+          </div>
+          <div className='mx-12'>
+            <FooterThree />
+          </div>
         </div>
         <div className="w-full h-fit justify-start items-start flex flex-col  px-[294px]">
           <div className="text-[#707070]">

@@ -13,7 +13,7 @@ const FooterTwo = () => {
       <div className="flex flex-col py-2">
         {dataTwo &&
           dataTwo.map((item, index) => (
-            <div key={index} className="text-[#707070]">
+            <div key={index} className="whitespace-nowrap text-[#707070]">
               {item}
             </div>
           ))}
