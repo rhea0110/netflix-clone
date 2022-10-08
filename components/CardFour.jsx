@@ -6,7 +6,7 @@ const CardFour = () => {
       <div class="w-full lg:w-[50%]">
         <img src={"card5.png"} alt="mobile" className="w-full h-full" />
       </div>
-      <div class="w-full  lg:w-[50%] overflow-hidden pr-16 py-40 justify-center items-center ">
+      <div class="w-full  lg:w-[50%] overflow-hidden px-16  py-40 justify-center items-center ">
         <h1 className="text-left text-6xl  w-full items-center font-bold text-white">
           Create profiles for children.
         </h1>

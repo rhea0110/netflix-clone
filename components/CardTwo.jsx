@@ -6,7 +6,7 @@ const CardTwo = () => {
       <div class="w-full items-start justify-start lg:w-[50%]">
         <img src={"card3.png"} alt="mobile" className="" />
       </div>
-      <div class="w-full lg:w-[50%]  pr-16 py-40 justify-start  items-start ">
+      <div class="w-full lg:w-[50%]  pr-16 py-40 justify-start items-start ">
         <h1 className="text-left text-6xl w-full items-center font-bold text-white">
           Download your shows to watch offline.
         </h1>

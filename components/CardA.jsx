@@ -3,7 +3,7 @@ import React from "react";
 const CardA = () => {
     return (
       <div class="flex w-full flex-wrap  justify-between bg-black py-6">
-        <div class="w-full lg:w-[50%] py-40 pl-16 justify-center items-center ">
+        <div class="w-full lg:w-[50%] py-40 px-16 justify-center items-center ">
           <h1 className="text-left text-6xl  lg:w-full items-center font-bold text-white">
               Enjoy on your TV. 
           </h1>

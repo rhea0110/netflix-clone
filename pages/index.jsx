@@ -62,7 +62,7 @@ const Home = () => {
           <CardThree />
         </div>
         <hr class="border-4 w-full border-gray-700" />
-        <div className="w-full  h-fit">
+        <div className="w-full h-fit">
           <CardFour />
         </div>
         <hr class="border-4 w-full border-gray-700" />
