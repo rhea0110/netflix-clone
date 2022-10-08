@@ -16,11 +16,11 @@ const NetSignup = () => {
       <div className="w-full h-fit">
         <div>
           <div className="">
-            <img
+          {/*   <img
               src={"home.png"}
               alt="home"
               className=" absolute w-full h-screen"
-            />
+            /> */}
           </div>
 
           <div className="flex flex-row w-full">
@@ -37,33 +37,33 @@ const NetSignup = () => {
           </div>
           <div className="relative w-full h-fit pt-20">
             <div className="">
-              <img
+          {/*     <img
                 src={"home.png"}
                 alt="home"
                 className=" absolute w-full h-[82%]"
-              />
+              /> */}
               <div className="opacity-90 bg-black h-full w-full">
-                <div className="w-full h-fit justify-center items-center flex flex-row ">
-                  <div className="text-[#707070] py-10">
+                <div className="w-full h-fit justify-center items-center  flex flex-wrap ">
+                  <div className="w-full lg:w-[50%]   h-full mx-auto justify-between items-center flex flex-wrap pb-7 text-[#707070] py-10">
                     Questions? Call 000-800-040-1843
                   </div>
                 </div>
-                 <div className="w-full lg:w-[50%]  h-full mx-auto justify-center items-center flex flex-wrap pb-7 ">
-          <div className="">
-            <Footer />
-          </div>
-          <div className="mx-4">
-            <FooterOne />
-          </div>
-          <div className='mx-4' >
-            <FooterTwo />
-          </div>
-          <div className=''>
-            <FooterThree />
-          </div>
-        </div>
-                <div className="w-full h-fit justify-center items-center flex flex-col ">
-                  <div className="text-[#707070]">
+                <div className="w-full lg:w-[50%]   h-full mx-auto justify-between items-center flex flex-wrap pb-7 ">
+                  <div className="">
+                    <Footer />
+                  </div>
+                  <div className="">
+                    <FooterOne />
+                  </div>
+                  <div className="">
+                    <FooterTwo />
+                  </div>
+                  <div className="">
+                    <FooterThree />
+                  </div>
+                </div>
+                <div className="w-full h-fit justify-center items-center flex flex-col  ">
+                  <div className=" w-full lg:w-[50%]   h-full mx-auto justify-between items-center flex flex-wrap pb-7  text-[#707070]">
                     <FooterButton />
                   </div>
                 </div>
