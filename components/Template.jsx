@@ -16,7 +16,7 @@ const Template = () => {
             membership.
           </p>
           <Link href="/home">
-            <div className="px-5 flex flex-row pt-6">
+            <div className="flex flex-wrap pt-6">
               <input
                 className="w-[65%] h-[65px] border px-10 border-white bg-white"
                 placeholder="Email Address"
