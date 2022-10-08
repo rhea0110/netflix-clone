@@ -22,16 +22,16 @@ const Home = () => {
       <div className="w-full md:w-full h-full overflow-hidden bg-black">
         <div className="w-full bg-black h-screen ">
           <div className="w-full sm:w-full">
-            <div className="bg-black w-full sm:w-full  h-full opacity-30">
+           {/*  <div className="bg-black w-full sm:w-full  h-full opacity-30">
               <img
                 src={"home.png"}
                 alt="home"
                 className=" absolute w-full h-screen"
               />
-            </div>
+            </div> */}
 
-            <div className="flex flex-row w-full">
-              <div className="w-48 py-6 ml-10">
+            <div className="flex  h-fit flex-wrap px-10 w-full">
+              <div className="w-48 py-6">
                 <img
                   src={"logo.png"}
                   alt="logo"
@@ -39,7 +39,7 @@ const Home = () => {
                 />
               </div>
 
-              <div className="relative ml-auto w-fit py-6 mr-10">
+              <div className="ml-auto  py-6">
                 <Button />
               </div>
             </div>
