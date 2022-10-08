@@ -49,7 +49,7 @@ const NetSignin = () => {
                   </div>
                 </div>
                 <div className="w-full lg:w-[50%]  h-full mx-auto justify-center items-center flex flex-wrap pb-7 ">
-          <div className="mx-4">
+          <div className="">
             <Footer />
           </div>
           <div className="mx-4">
