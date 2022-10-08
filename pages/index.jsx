@@ -19,10 +19,10 @@ const Home = () => {
     <title>Welcome || Page</title>
   </Head>
     return (
-      <div className="w-full md:w-full h-full overflow-hidden bg-black">
+      <div className="w-full md:w-full h-full pb-10 overflow-hidden bg-black">
         <div className="w-full bg-black h-screen ">
           <div className="w-full sm:w-full">
-           {/*  <div className="bg-black w-full sm:w-full  h-full opacity-30">
+            {/*  <div className="bg-black w-full sm:w-full  h-full opacity-30">
               <img
                 src={"home.png"}
                 alt="home"
@@ -30,8 +30,8 @@ const Home = () => {
               />
             </div> */}
 
-            <div className="flex  h-fit flex-wrap px-10 w-full">
-              <div className="w-48 py-6">
+            <div className="flex flex-wrap  px-16 w-full">
+              <div className="w-48 mt-6">
                 <img
                   src={"logo.png"}
                   alt="logo"
@@ -39,7 +39,7 @@ const Home = () => {
                 />
               </div>
 
-              <div className="ml-auto py-6">
+              <div className="ml-auto  h-fit mt-6">
                 <Button />
               </div>
             </div>
@@ -50,7 +50,7 @@ const Home = () => {
           </div>
         </div>
         <hr class="border-4 w-full border-gray-700" />
-        <div className="w-full h-fit">
+        <div className="w-full px-20 h-fit">
           <CardA />
         </div>
         <hr class="border-4 w-full border-gray-700" />
@@ -58,42 +58,42 @@ const Home = () => {
           <CardTwo />
         </div>
         <hr class="border-4 w-full border-gray-700" />
-        <div className="w-full h-fit">
+        <div className="w-full px-20 h-fit">
           <CardThree />
         </div>
         <hr class="border-4 w-full border-gray-700" />
-        <div className="w-full h-fit">
+        <div className="w-full  h-fit">
           <CardFour />
         </div>
         <hr class="border-4 w-full border-gray-700" />
-        <div className="w-full h-fit">
+        <div className="w-full  h-fit">
           <Faqs />
           <div className="py-5">
             <FaqsTemplate />
           </div>
         </div>
         <hr class="border-4 border-gray-700" />
-        <div className="w-full  h-fit justify-center items-center  flex flex-wrap ">
-          <div className="text-[#707070] py-10">
+        <div className="w-full h-fit justify-center items-center  flex flex-wrap ">
+          <div className="w-full lg:w-[50%]   h-full mx-auto justify-between items-center flex flex-wrap pb-7 text-[#707070] py-10">
             Questions? Call 000-800-040-1843
           </div>
         </div>
-        <div className="w-full lg:w-[50%]  h-full mx-auto justify-center items-center flex flex-wrap pb-7 ">
+        <div className="w-full lg:w-[50%]   h-full mx-auto justify-between items-center flex flex-wrap pb-7 ">
           <div className="">
             <Footer />
           </div>
-          <div className="mx-4">
+          <div className="">
             <FooterOne />
           </div>
-          <div className='mx-4' >
+          <div className="">
             <FooterTwo />
           </div>
-          <div className=''>
+          <div className="">
             <FooterThree />
           </div>
         </div>
         <div className="w-full h-fit justify-center items-center flex flex-col  ">
-          <div className="text-[#707070]">
+          <div className=" w-full lg:w-[50%]   h-full mx-auto justify-between items-center flex flex-wrap pb-7  text-[#707070]">
             <FooterButton />
           </div>
         </div>

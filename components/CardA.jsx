@@ -2,9 +2,9 @@ import React from "react";
 
 const CardA = () => {
     return (
-      <div class="flex w-full flex-wrap bg-black py-6 px-12 ">
-        <div class="w-full lg:w-[50%] p-10 py-[123px] justify-center items-center ">
-          <h1 className="text-left text-6xl lg:w-full items-center font-bold text-white">
+      <div class="flex w-full flex-wrap  justify-between bg-black py-6">
+        <div class="w-full lg:w-[50%] py-40 pl-16 justify-center items-center ">
+          <h1 className="text-left text-6xl  lg:w-full items-center font-bold text-white">
               Enjoy on your TV. 
           </h1>
           <p className="text-left lg:w-full text-2xl pt-8 w-full items-center font-semibold text-white">
