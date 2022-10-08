@@ -19,10 +19,10 @@ const Home = () => {
     <title>Welcome || Page</title>
   </Head>
     return (
-      <div className="w-full h-full bg-black">
+      <div className="w-full md:w-full h-full overflow-hidden bg-black">
         <div className="w-full bg-black h-screen ">
-          <div>
-            <div className="bg-black w-full h-full opacity-30">
+          <div className="w-full sm:w-full">
+            <div className="bg-black w-full sm:w-full  h-full opacity-30">
               <img
                 src={"home.png"}
                 alt="home"
