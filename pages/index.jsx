@@ -73,26 +73,26 @@ const Home = () => {
           </div>
         </div>
         <hr class="border-4 border-gray-700" />
-        <div className="w-full h-fit justify-start items-start flex flex-row px-[294px]">
+        <div className="w-full  h-fit justify-center items-center  flex flex-wrap ">
           <div className="text-[#707070] py-10">
             Questions? Call 000-800-040-1843
           </div>
         </div>
-        <div className="w-full lg:w-[50%]  h-full md:flex-flex-col overflow-hidden justify-center items-center flex flex-row pb-7 px-[695px]">
-          <div className="mx-12">
+        <div className="w-full lg:w-[50%]  h-full mx-auto justify-center items-center flex flex-wrap pb-7 ">
+          <div className="mx-4">
             <Footer />
           </div>
-          <div className="mx-12">
+          <div className="mx-4">
             <FooterOne />
           </div>
-          <div className='mx-12' >
+          <div className='mx-4' >
             <FooterTwo />
           </div>
-          <div className='mx-12'>
+          <div className=''>
             <FooterThree />
           </div>
         </div>
-        <div className="w-full h-fit justify-start items-start flex flex-col  px-[294px]">
+        <div className="w-full h-fit justify-center items-center flex flex-col  ">
           <div className="text-[#707070]">
             <FooterButton />
           </div>
