@@ -12,7 +12,7 @@ const NetSignup = () => {
     <title>Sign Up</title>
   </Head>;
   return (
-    <div className="flex justify-center bg-black items-center">
+    <div className="flex justify-center w-full h-full overflow-hidden bg-black items-center">
       <div className="w-full h-fit">
         <div>
           <div className="">
