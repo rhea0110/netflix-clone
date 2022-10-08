@@ -2,8 +2,8 @@ import React from "react";
 
 const CardFour = () => {
   return (
-    <div class="flex min-w-screen flex-wrap bg-black overflow-hidden  w-full h-full px-12">
-      <div class="w-1/2 overflow-hidden ">
+    <div class="flex  flex-wrap bg-black overflow-hidden  w-full h-full px-12">
+      <div class="w-full lg:w-1/2 overflow-hidden ">
         <img src={"card5.png"} alt="mobile" className="w-full h-full" />
       </div>
       <div class="w-1/2 overflow-hidden p-10 py-40 justify-center items-center ">
