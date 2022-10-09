@@ -3,7 +3,7 @@ import React from "react";
 const CardFour = () => {
   return (
     <div class="flex  flex-wrap bg-black w-full justify-between h-full px-12">
-      <div class="w-full ml-16 py-12 lg:w-[45%]">
+      <div class="w-full ml-8 py-12 lg:w-[45%]">
         <img src={"card5.png"} alt="mobile" className="w-full h-full" />
       </div>
       <div class="w-full  lg:w-[50%]  overflow-hidden px-20 py-40 justify-center items-center ">
