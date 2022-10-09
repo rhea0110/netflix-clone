@@ -14,7 +14,7 @@ const CardA = () => {
           </p>
         </div>
 
-        <div class="w-full lg:w-[50%] overflow-hidden py-7">
+        <div class="w-full lg:w-[50%] overflow-hidden py-12">
               <img src={"card2.png"} alt="tv" className="w-full h-full" /> 
         </div>
       </div>
