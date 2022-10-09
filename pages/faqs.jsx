@@ -61,10 +61,10 @@ const Faqs = () => {
                   key={index}
                   className="text-white my-3 text-lg text-left font-mono text-md"
                 >
-                  {lines.questions.toUpperCase()}.
+                  {lines.questions}.
                 </li>
                 <li className="text-red-500 my-3 text-lg text-left font-mono text-md">
-                  - {lines.answers.toUpperCase()}.
+                  - {lines.answers}.
                 </li>
               </>
             ))}

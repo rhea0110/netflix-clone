@@ -11,36 +11,33 @@ const AlertComp = () => {
         </Link>
         <div className="min-h-full p-5 w-full ">
           <h1 className="text-5xl text-left font-mono text-white ">
-            WHAT INTELLECTUAL PROPERTY NOTICE SHOULD I BE AWARE OF?
+            What intellectual property notices should I be aware of?
           </h1>
           <ul type="circle" className="w-full p-5 my-2">
             <li className="text-white text-lg text-left font-mono text-md">
-              - <span className="text-red-600">COPYRIGHT</span>: THE NETFLIX
-              SERVICE, INCLUDING ALL CONTENT PROVIDED ON THE NETFLIX SERVICE, IS
-              PROTECTED BY COPYRIGHT, TRADE SECRET OR OTHER INTELLECTUAL
-              PROPERTY LAWS AND TREATIES.
+              - <span className="text-red-600">Copyright</span>: The Netflix
+              service, including all content provided on the Netflix service, is
+              protected by copyright, trade secret or other intellectual
+              property laws and treaties.
             </li>
             <br />
             <li className="text-white text-lg text-left font-mono text-md">
-              - <span className="text-red-600">TRADEMARKS</span>: NETFLIX IS A
-              REGISTERED TRADEMARK OF NETFLIX, INC.
-            </li>
-            <br />
-
-            <li className="text-white text-lg text-left font-mono text-md">
-              - <span className="text-red-600">PATENTS</span>: NETFLIX HAS
-              PATENTS THAT APPLY TO OUR SERVICE. FOR INFORMATION ON NETFLIX
-              PATENTS SEARCH FOR NETFLIX PATENTS.
+              - <span className="text-red-600">Trademarks</span>: Netflix is a
+              registered trademark of Netflix, Inc.
             </li>
             <br />
 
             <li className="text-white text-lg text-left font-mono text-md">
-              - <span className="text-red-600">PROMOTIONAL OFFERS</span>: WE MAY
-              FROM TIME TO TIME OFFER SPECIAL PROMOTIONAL OFFERS, PLANS OR
-              MEMBERSHIPS OFFERS. WE MAY USE INFORMATION SUCH AS DEVICE ID,
-              METHOD OF PAYMENT OR AN ACCOUNT EMAIL ADDRESS USED WITH AN
-              EXISTING OR RECENT NETFLIX MEMBERSHIP TO DETERMINE OFFER
-              ELIGIBILITY.
+              - <span className="text-red-600">Patents</span>:Netflix has
+              patents that apply to our service.
+            </li>
+            <br />
+
+            <li className="text-white text-lg text-left font-mono text-md">
+              - <span className="text-red-600">Featured</span>: People who live
+              together in a single household can have their own personalized
+              Netflix experience. You can have up to 5 profiles on a single
+              Netflix account.
             </li>
             <br />
 
@@ -54,24 +51,21 @@ const AlertComp = () => {
             </li>
             <br />
             <li className="text-white text-lg text-left font-mono text-md">
-              - <span className="text-red-600">CANCELLATION</span>: YOU CAN
-              CANCEL YOUR NETFLIX MEMBERSHIP AT ANY TIME, AND YOU WILL CONTINUE
-              TO HAVE ACCESS TO THE NETFLIX SERVICE THROUGH THE END OF YOUR
-              BILLING PERIOD. TO THE EXTENT PERMITTED BY THE APPLICATION LAW,
-              PAYMENTS ARE NON-REFUNDABLE AND WE DO NOT PROVIDE REFUNDS OR
-              CREDITS FOR ANY PARTIAL MEMBERSHIP PERIODS OR UNUSED NETFLIX
-              CONTENT.
+              - <span className="text-red-600">Logout</span>: Getting rid
+              of a device you used to watch Netflix? Make sure to sign out of
+              any accounts or services that you used on the device, including
+              Netflix.
             </li>
             <br />
             <li className="text-white text-lg text-center font-mono text-md">
-              FOR MORE VISIT{" "}
+              For more visit{" "}
               <a
                 href="https://www.netflix.com/in/"
                 rel="noreferrer"
                 target="_blank"
                 className="text-red-600"
               >
-                NETFLIX INDIA
+                Netflix India
               </a>
             </li>
           </ul>

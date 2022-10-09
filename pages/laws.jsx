@@ -25,35 +25,35 @@ const Laws = () => {
     },
     {
       title:
-        "information collected via the use of cookies, web beacons and other technologies, including ad data such as information on the availability and delivery of ads, the site URL, as well as the date and time. See our Cookies and Internet Advertising section for more details.",
+        "Information collected via the use of cookies, web beacons and other technologies, including ad data such as information on the availability and delivery of ads, the site URL, as well as the date and time. See our Cookies and Internet Advertising section for more details.",
     },
     {
       title:
-        "search queries and commands applicable to Netflix that you make through Partner devices or voice assistant platforms",
+        "Search queries and commands applicable to Netflix that you make through Partner devices or voice assistant platforms",
     },
     {
       title:
-        "service activation information such as your email address or other contact information",
+        "Service activation information such as your email address or other contact information",
     },
     {
       title:
-        "security service providers who provide us with information to secure our systems, prevent fraud and help us protect the security of Netflix accounts",
+        "Security service providers who provide us with information to secure our systems, prevent fraud and help us protect the security of Netflix accounts",
     },
     {
       title:
-        "payment service providers who provide us with payment or balance information, or updates to that information, based on their relationship with you",
+        "Payment service providers who provide us with payment or balance information, or updates to that information, based on their relationship with you",
     },
     {
       title:
-        "online and offline data providers, from which we obtain aggregated demographic, interest based and online advertising related data",
+        "Online and offline data providers, from which we obtain aggregated demographic, interest based and online advertising related data",
     },
     {
       title:
-        "publicly-available sources such as publicly available posts on social media platforms and information available through public databases associating IP addresses with internet service providers",
+        "Publicly-available sources such as publicly available posts on social media platforms and information available through public databases associating IP addresses with internet service providers",
     },
     {
       title:
-        "secure our systems, prevent fraud and help us protect the security of Netflix accounts",
+        "Secure our systems, prevent fraud and help us protect the security of Netflix accounts",
     },
   ];
   return (
@@ -87,7 +87,7 @@ const Laws = () => {
                 key={index}
                 className="text-white my-3 text-lg text-left font-mono text-md"
               >
-                - {lines.title.toUpperCase()}.
+                - {lines.title}.
               </li>
             ))}
           </ul>

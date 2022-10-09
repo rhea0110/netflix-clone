@@ -107,7 +107,7 @@ const Languages = () => {
                 key={index}
                 className="text-white my-3 flex border-b border-red-500 flex-row text-lg text-left font-mono text-md"
               >
-                <div className="mt-2">{lines.lang.toUpperCase()}</div>
+                <div className="mt-2">{lines.lang}</div>
                 <img src={`${lines.src}.png`} className={`w-12 ml-auto`} />
               </div>
             ))}

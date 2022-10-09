@@ -73,7 +73,7 @@ const Guidelines = () => {
                 key={index}
                 className="text-white my-3 text-lg text-left font-mono text-md"
               >
-                - {lines.title.toUpperCase()}.
+                - {lines.title}.
               </li>
             ))}
           </ul>
