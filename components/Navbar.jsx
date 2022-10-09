@@ -85,13 +85,20 @@ const Navbar = () => {
             <Link href={menu.href}>
               <a
                 key={index}
-                className={`text-white  cursor-pointer gap-x-4 p-1 flex items-center text-lg hover:text-black font-medium ${
+                className={`text-white cursor-pointer gap-x-4 p-0.5 flex items-center text-lg hover:text-black font-medium ${
                   menu.gap ? "mt-[75px]" : "mt-2"
                 }`}
-              >
-                <img src={`${menu.src}.png`} className={`w-11`} />
+                >
+                    <div
+                  className={`origin-left p-1 duration-200 ${
+                    router.asPath == menu.href &&
+                    "bg-rose-400 opacity-95 rounded"
+                  }`}
+                >
+                <img src={`${menu.src}.png`} className={`w-12`} />
                 {/* <Link href={menu.href}> */}
-                <div
+                </div>
+                    <div
                   className={`${!open && "hidden"} origin-left duration-200 ${
                     router.asPath == menu.href &&
                     "text-black border-b-2 border-black"
