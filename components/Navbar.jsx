@@ -56,7 +56,7 @@ const Navbar = () => {
       <div
         className={`${
           open ? "w-60" : "w-20"
-        } h-full opacity-90 bg-black relative p-5 pt-8`}
+        } h-full opacity-90 bg-black border border-red-600 relative p-5 pt-8`}
       >
         <img
           src={"back.png"}
