@@ -56,7 +56,7 @@ const Navbar = () => {
       <div
         className={`${
           open ? "w-60" : "w-20"
-        } h-full opacity-90 bg-red-600 relative p-5 pt-8`}
+        } h-full opacity-90 bg-black relative p-5 pt-8`}
       >
         <img
           src={"back.png"}
@@ -72,7 +72,7 @@ const Navbar = () => {
             className={`w-20 rounded-md rounded-t-md cursor-pointer duration-500`}
           />
           <h1
-            className={`text-white origin-left font-medium text-xl duration-300 ${
+            className={`text-red-600 origin-left font-medium text-xl duration-300 ${
               !open && "scale-0"
             } `}
           >
@@ -85,14 +85,14 @@ const Navbar = () => {
             <Link href={menu.href}>
               <a
                 key={index}
-                className={`text-white cursor-pointer gap-x-4 p-0.5 flex items-center text-lg hover:text-black font-medium ${
+                className={`text-white cursor-pointer gap-x-4 p-0.5 flex items-center text-lg hover:text-red-600 font-medium ${
                   menu.gap ? "mt-[75px]" : "mt-2"
                 }`}
                 >
                     <div
                   className={`origin-left p-1 duration-200 ${
                     router.asPath == menu.href &&
-                    "bg-rose-400 opacity-95 rounded"
+                    "bg-red-600  rounded"
                   }`}
                 >
                 <img src={`${menu.src}.png`} className={`w-12`} />
@@ -101,7 +101,7 @@ const Navbar = () => {
                     <div
                   className={`${!open && "hidden"} origin-left duration-200 ${
                     router.asPath == menu.href &&
-                    "text-black border-b-2 border-black"
+                    "text-red-600 border-b-2 border-red-600"
                   }`}
                 >
                   {menu.title}
