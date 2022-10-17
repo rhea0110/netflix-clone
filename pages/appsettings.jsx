@@ -8,11 +8,11 @@ const AppsSettings = () => {
       <Head>
         <title>App Settings</title>
       </Head>
-      <div className="h-full bg-black w-full flex">
+      <div className="min-h-screen bg-black w-full flex">
         <div className="text-white">
           <Navbar />
         </div>
-        <div className="w-full h-fit">
+        <div className="w-full min-h-screen">
           <AppSet />
         </div>
       </div>
