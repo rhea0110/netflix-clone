@@ -12,7 +12,7 @@ const NetSignin = () => {
     <title>Sign In</title>
   </Head>;
   return (
-    <div className="flex justify-center w-full h-full overflow-hidden items-center">
+    <div className="flex bg-black justify-center w-full h-full overflow-hidden items-center">
       <div className="w-full h-fit">
         <div>
           <div className="">

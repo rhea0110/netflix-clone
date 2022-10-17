@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const SignInTemplate = () => {
   return (
-    <div className="min-w-screen lg:w-[25%] flex items-center  justify-center p-11 bg-red-600 bg-opacity-20">
+    <form className="min-w-screen lg:w-[25%] flex items-center  justify-center p-11 bg-red-600 bg-opacity-20">
       <div className="min-w-screen items-left justify-left align-center">
         <h1 className="text-left text-3xl font-bold text-white mb-8">
           Sign In
@@ -57,7 +57,7 @@ const SignInTemplate = () => {
           </div>
         </div>
       </div>
-    </div>
+    </form>
   );
 };
 
