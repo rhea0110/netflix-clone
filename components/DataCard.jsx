@@ -27,25 +27,25 @@ const ExclusiveCards = (props) => {
           {data.map((show, index) => (
             <div
               key={index}
-              className="flex relative hover:scale-110 flex-wrap w-full my-6 duration-800   overflow-hidden  transition-all rounded-xl border-gray-900 lg:w-[30%]"
+              className="flex relative hover:scale-110  flex-wrap w-full my-6 duration-800   overflow-hidden  transition-all rounded-xl border-gray-900 lg:w-[30%]"
             >
               <img
                 src={`${show.src}.jpg`}
                       className="w-full h-[250px] rounded-t-lg" onMouseEnter={() => { setIsHover(true); setCheckIndex(index) }} onMouseLeave={() => setIsHover(false)}
                   />
                   { isHover && index === checkIndex &&
-                      <div className="p-5 absolute bg-black/80 bottom-0 left-0 h-full " onMouseOver={() => setIsHover(true)}>
-                          <span className="text-lg text-center truncate text-white font-semibold">
+                      <div className="p-2 w-full absolute pt-12 bg-black/80 bottom-0 left-0 h-full " onMouseOver={() => setIsHover(true)}>
+                          <span className="text-lg flex flex-wrap text-center truncate text-white font-semibold">
                               {show.title}
                           </span>
                           <br />
-                          <span className="text-md line-clamp-3 mt-4 text-left text-white font-normal">
+                          <span className="text-md line-clamp-3 text-left text-white font-normal">
                               {show.description}
                           </span>
                           <Link href={show.href}>
                               <a>
-                                  <div className=" w-fit flex ml-auto pt-6 ">
-                                      <span className="text-md flex cursor-pointer flex-wrap gap-x-1 text-center border-2 border-red-600 py-1.5 px-4 text-white font-light">
+                                  <div className=" w-fit flex mt-5 ">
+                                      <span className="text-md flex cursor-pointer rounded-md flex-wrap  text-center border-2 border-red-600 py-1 px-2 text-white font-light">
                                           <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               fill="none"

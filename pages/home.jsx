@@ -8,7 +8,7 @@ const shows = [
     title: "Wonder Women: The Strong Lady",
     src: "wonder",
     description:
-      "Wonder Woman is a 2017 superhero film based on the DC Comics character of the same name. Produced by Warner Bros. Pictures, Atlas Entertainment and Cruel and Unusual Films, and distributed by Warner Bros. Pictures, it is the fourth installment of the DC Extended Universe (DCEU), the first film of the Wonder Woman trilogy within the shared universe, and a prequel/spin-off to Batman v Superman: Dawn of Justice (2016).[7] Directed by Patty Jenkins and written by Allan Heinberg from a story by Heinberg, Zack Snyder and Jason Fuchs, Wonder Woman stars Gal Gadot in the title role, alongside Chris Pine, Robin Wright, Danny Huston, David Thewlis, Connie Nielsen and Elena Anaya. It is the second live action theatrical film featuring Wonder Woman following her debut in Batman v Superman: Dawn of Justice.",
+      "Wonder Woman is a 2017 superhero film based on the DC Comics character of the same name. Produced by Warner Bros. Pictures, Atlas Entertainment and Cruel and Unusual Films, and distributed by Warner Bros. Pictures, it is the fourth installment of the DC Extended Universe (DCEU), the first film of the Wonder Woman trilogy within the shared universe, and a prequel/spin-off to Batman v Superman: Dawn of Justice (2016).",
     btn: "Watch Trailer",
     href: "https://www.youtube.com/watch?v=sfM7_JLk-84",
   },
@@ -65,7 +65,7 @@ const TvShows = () => {
         <div className="text-white">
           <Navbar />
         </div>
-        <div className="w-full h-fit">
+        <div className="w-full h-full">
           <DataCard data={ shows } />
         </div>
       </div>
