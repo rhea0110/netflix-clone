@@ -27,7 +27,7 @@ const ExclusiveCards = (props) => {
           {data.map((show, index) => (
             <div
               key={index}
-              className="flex relative hover:scale-110  flex-wrap w-full my-6 duration-800   overflow-hidden  transition-all rounded-xl border-gray-900 lg:w-[30%]"
+              className="flex relative hover:scale-110 flex-wrap w-full my-6 duration-800   overflow-hidden  transition-all rounded-xl border-gray-900 lg:w-[30%]"
             >
               <img
                 src={`${show.src}.jpg`}
@@ -35,17 +35,16 @@ const ExclusiveCards = (props) => {
                   />
                   { isHover && index === checkIndex &&
                       <div className="p-2 w-full absolute pt-12 bg-black/80 bottom-0 left-0 h-full " onMouseOver={() => setIsHover(true)}>
-                          <span className="text-lg flex flex-wrap text-center truncate text-white font-semibold">
+                          <div className="text-lg flex flex-wrap text-left overflow-hidden text-white font-semibold">
                               {show.title}
-                          </span>
-                          <br />
-                          <span className="text-md line-clamp-3 text-left text-white font-normal">
+                          </div>
+                          <div className="text-md mt-5 line-clamp-3 text-left text-white font-normal">
                               {show.description}
-                          </span>
+                          </div>
                           <Link href={show.href}>
                               <a>
-                                  <div className=" w-fit flex mt-5 ">
-                                      <span className="text-md flex cursor-pointer rounded-md flex-wrap  text-center border-2 border-red-600 py-1 px-2 text-white font-light">
+                                  <div className=" w-fit flex mt-3">
+                                      <span className="text-md gap-x-1 flex cursor-pointer rounded-md flex-wrap  text-center border-2 border-red-600 py-1 px-2 text-white font-light">
                                           <svg
                                               xmlns="http://www.w3.org/2000/svg"
                                               fill="none"
